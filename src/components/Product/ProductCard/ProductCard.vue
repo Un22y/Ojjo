@@ -39,11 +39,7 @@ export default {
             required:true,
         }
     },
-    computed: {
-        getId() {
 
-        }
-    },
     data() {
         return {
             product: productListData.find(item => item.id == this.id),
@@ -56,14 +52,20 @@ export default {
         },
     },
     methods: {
+        getImage() {
+            if (this.imageBig == '') this.imageBig = this.product.image1;
+        },
         newGetImage(event) {
             this.imageBig = event.target.src;
         }
     },
+    mounted() {
+        this.imageBig = this.product.image1
+    },
     watch: {
         id(newValue) {
-            console.log('newValue')
             this.product = productListData.find(item => item.id == newValue)
+            this.imageBig = this.product.image1;
         }
     }
 }
