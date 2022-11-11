@@ -2,7 +2,8 @@
     <div class="App page">
         <ProductCard
             :id="$route.params.id"
-        />
+        />        
+        <custom-description :isProductDescription="true"/>
         <custom-header :title="'Товары, которые могут вам понравиться'" :subtitle="'Мы подготовили для вас кое-что еще'"/>
         <ProductList :list="productList"/>
         <h1>Страница с id = {{$route.params.id}}</h1>   
