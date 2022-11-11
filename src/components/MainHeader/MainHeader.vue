@@ -7,6 +7,14 @@
                 @click="$router.push(`/catalog`)"
             >Каталог изделий</simple-button>
         </div>
+        <div class="partners">
+                <img class="partners-img" src="/Rectangle 2.png" alt="">
+                <img class="partners-img" src="/Rectangle 2.png" alt="">
+                <img class="partners-img" src="/Rectangle 2.png" alt="">
+                <img class="partners-img" src="/Rectangle 2.png" alt="">
+                <img class="partners-img" src="/Rectangle 2.png" alt="">
+                <img class="partners-img" src="/Rectangle 2.png" alt="">
+        </div>
     </div>
 </template>
 
@@ -28,6 +36,7 @@ export default {
         justify-content: flex-end;
         height: 100vh;
         width: 100%;
+        gap: 80px;
     }
     .header__title {
         display: flex;
@@ -36,4 +45,26 @@ export default {
         gap: 50px;
         color: white
     }
+
+.partners {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 58%;
+    gap: 14px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 2px solid #ffffff;
+}
+
+.partners-img {
+    border-right: 2px #ffffff solid;
+    padding-right: 14px;
+}
+
+.partners-img:last-child {
+    border:none;
+}
 </style>

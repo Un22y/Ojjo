@@ -1,13 +1,13 @@
 <template>
     <div class="App">
         <MainHeader/>
-        <Blog :list="blog"/>
         <About :list="about"/>
         <darkfone>
-            <custom-header :title="'Полезные советы и персональный предложения'" :subtitle="'Эксклюзивная рассылка'"/>
+            <custom-header :title="'Посетите наши салоны в Москве'" :subtitle="'Не знаете, что выбрать?'"/>
             <article class="salons__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut duis tortor vitae pellentesque egestas quam pulvinar. Pellentesque porttitor velit sit pellentesque. Suspendisse donec pretium id dignissim. Dignissim ultrices eget orci viverra. Egestas quis et ut ultrices imperdiet lectus nulla tempus. Pharetra lorem sem purus nisi libero viverra ipsum.</article>
             <simple-button class="black__theme">Наши салоны</simple-button>
         </darkfone>
+        <Blog :list="blog"/>
     </div>
 </template>
 

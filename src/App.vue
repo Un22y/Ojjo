@@ -13,6 +13,7 @@
                 <simple-input :placeholder="'Ваш E-mail'"/>
             </div>
         </darkfone>
+        <Footer/>
     </div>
 </template>
 
@@ -21,6 +22,7 @@ import ProductList from "@/components/Product/ProductList/ProductList"
 import Blog from "@/components/Blog/Blog"
 import About from "@/components/About/About"
 import ProductCard from "@/components/Product/ProductCard/ProductCard"
+import Footer from "@/components/Footer/Footer"
 import {subscribeFormData as subscribeFormData} from "@/data"
 
 export default {
@@ -29,6 +31,7 @@ export default {
         About,
         ProductList,
         ProductCard,
+        Footer
     },
     methods: {
         getProductData(id) {
@@ -66,7 +69,7 @@ export default {
     }
 
     .wide-container {
-        max-width: 80%;
+        max-width: 70%;
         display: flex;
         flex-direction: column;
         gap: 50px;
