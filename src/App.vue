@@ -31,7 +31,7 @@ export default {
         About,
         ProductList,
         ProductCard,
-        Footer
+        Footer,
     },
     methods: {
         getProductData(id) {
@@ -54,7 +54,12 @@ export default {
         margin: 0;
         padding: 0;
         box-sizing: border-box;        
-        font-family: 'Yuji Mai';
+        font-family: 'Playfair Display';
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
     }
 
     .App {

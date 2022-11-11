@@ -1,8 +1,10 @@
 <template>
-    <div class="App wide-container">
+    <div class="App wide-container catalog">
         <ProductList :list="list"/>
         <hr class="line">
         <ProductList :list="list"/>
+        <hr class="line">
+        <custom-description :isProductDescription="false"/>
     </div>
 </template>
 
@@ -20,5 +22,7 @@ export default {
 </script>
 
 <style>
-
+    .catalog {
+        margin-top: 140px;
+    }
 </style>

@@ -4,6 +4,7 @@ import Navigation from "@/components/UI/Navigation";
 import Darkfone from "@/components/UI/Darkfone";
 import HeaderTitle from "@/components/UI/HeaderTitle";
 import ListItem from "@/components/UI/ListItem";
+import CustomDescription from "@/components/UI/CustomDescription"
 
 export default [
     SimpleButton,
@@ -12,4 +13,5 @@ export default [
     Darkfone,
     HeaderTitle,
     ListItem,
+    CustomDescription,
 ]

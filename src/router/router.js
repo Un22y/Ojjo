@@ -1,6 +1,7 @@
 import main from "@/pages/main"
 import productPage from "@/pages/productPage"
 import catalog from "@/pages/catalog"
+import contacts from "@/pages/contacts"
 import { createRouter, createWebHistory } from "vue-router"
 
 
@@ -16,6 +17,10 @@ const routes = [
     {
         path: '/catalog',
         component: catalog,
+    },
+    {
+        path: '/contacts',
+        component: contacts,
     },
 ]
 
