@@ -31,7 +31,7 @@ export default {
         About,
         ProductList,
         ProductCard,
-        Footer
+        Footer,
     },
     methods: {
         getProductData(id) {
