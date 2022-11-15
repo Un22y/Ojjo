@@ -74,7 +74,7 @@ export default {
     }
 
     .wide-container {
-        max-width: 70%;
+        max-width: 90%;
         display: flex;
         flex-direction: column;
         gap: 50px;
