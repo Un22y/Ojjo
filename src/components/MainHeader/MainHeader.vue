@@ -52,7 +52,7 @@ export default {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 58%;
+    width: 100%;
     gap: 14px;
     padding-top: 30px;
     padding-bottom: 30px;
